@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="madjarqc.herbesetepices" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".WelcomeScreen"
+            android:label="@string/app_name" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MaListe"
+            android:label="@string/title_activity_ma_liste"
+            android:parentActivityName=".WelcomeScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="madjarqc.herbesetepices.WelcomeScreen" />
+        </activity>
+
+        <activity
+            android:name=".Information"
+            android:label="@string/title_activity_information"
+            android:parentActivityName=".WelcomeScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="madjarqc.herbesetepices.WelcomeScreen" />
+        </activity>
+
+        <activity
+            android:name=".APropos"
+            android:label="@string/title_activity_apropos"
+            android:parentActivityName=".WelcomeScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="madjarqc.herbesetepices.WelcomeScreen" />
+        </activity>
+
+        <activity
+            android:name=".DetailEpice"
+            android:label="@string/title_activity_detail_epice"
+            android:parentActivityName=".Information" >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="madjarqc.herbesetepices.Information" />
+        </activity>
+
+
+    </application>
+
+</manifest>

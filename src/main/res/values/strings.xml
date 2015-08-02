@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name" translatable="false">HerbesEtEpices</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="welcomeButton1">MaListe</string>
+    <string name="welcomeButton2">Informations</string>
+    <string name="welcomeButton3">À propos</string>
+
+
+
+
+    <string name="title_activity_ma_liste">MaListe</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_information">Information</string>
+
+
+
+
+    <string name="title_activity_apropos">À propos</string>
+    <string name="apropos_text">Application conçu à partir des information du livre Les règles d\'or des épices par Ethné &amp; Philippe de Vienne, chasseurs d\'épice</string>
+    <string name="title_activity_detail_epice">DetailEpice</string>
+    <string name="title_activity_epice_detail">EpiceDetail</string>
+
+
+
+
+
+
+</resources>

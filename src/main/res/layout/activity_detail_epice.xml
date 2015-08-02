@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="madjarqc.herbesetepices.DetailEpice">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/icon_categorie"
+        android:src="@drawable/sale"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="84dp"
+        android:layout_height="476dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Phasellus tempor nisi ex, mattis gravida nunc vulputate ac. Vivamus suscipit porttitor leo, in laoreet ante tempus nec. Integer eu venenatis dolor. Nullam ac posuere eros, interdum convallis massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut nec vehicula elit, sed sollicitudin neque. Maecenas convallis massa a tortor tincidunt, nec ultrices sem porttitor. Curabitur sed purus bibendum, viverra ante vitae, pellentesque sem. Suspendisse imperdiet ornare eros id elementum. Nulla facilisi. Vestibulum vulputate diam at tortor varius imperdiet.  Quisque at est tempus, vehicula justo tincidunt, mattis enim. Duis a efficitur massa. Aliquam faucibus purus urna, at faucibus dui porta nec. Mauris et magna ut ante fermentum ultrices ut sed tellus. Praesent semper elementum tortor, in porttitor nulla porttitor quis. In hac habitasse platea dictumst. Vivamus tincidunt rhoncus est, ac malesuada est rutrum ut. Curabitur facilisis, dolor vel consequat sollicitudin, tortor urna mollis mi, at pharetra metus purus in justo. Integer dignissim, nisi vel fringilla lobortis, ante mi iaculis tellus, euismod ullamcorper turpis arcu at est.  Sed posuere egestas maximus. Nulla elementum cursus odio non dapibus. Aliquam eleifend tempor arcu vitae porta. Cras efficitur malesuada metus a finibus. Vivamus consectetur sed ipsum a auctor. Duis nec eleifend ex. Proin purus mi, eleifend fermentum aliquet id, dapibus ut leo. Vivamus faucibus fringilla tortor, quis tristique nisi bibendum et. Nulla suscipit nibh in venenatis ultrices.  Cras lobortis nulla elit, id pretium neque rutrum ac. Pellentesque maximus ultricies lacus, euismod blandit lectus semper mattis. Curabitur eget pharetra orci, quis mollis ante. Vivamus vitae odio risus. Integer nec sodales justo. Aliquam commodo non lectus sed ultrices. Phasellus non arcu vel libero pharetra convallis at non justo. Nam aliquam dui massa, sit amet semper eros mattis ut. Cras nulla orci, fringilla eget vulputate eu, interdum quis nisi. Etiam non neque vitae nunc gravida scelerisque ac sit amet nisl. Aliquam id viverra velit, nec consectetur leo. Nunc lorem massa, dignissim a mollis sed, feugiat id quam. Mauris neque felis, rhoncus quis ligula vitae, tincidunt sodales turpis. Vestibulum dignissim suscipit leo vel pulvinar. Integer ac quam a leo bibendum sagittis. Vestibulum semper eleifend lectus, sed tincidunt justo.  Suspendisse vel lorem ac lacus vehicula maximus nec nec odio. Aliquam ultrices ligula tempus congue laoreet. Ut molestie euismod enim, vitae tristique nisl vehicula sed. Maecenas sit amet ligula varius, pellentesque nunc varius, varius nisi. Nullam nibh justo, interdum vestibulum volutpat in, euismod ut risus. Curabitur lacinia porta bibendum. In venenatis dolor lorem, nec facilisis dui gravida in. Integer eu fermentum ipsum. Sed quis nisl erat. Sed quam tortor, molestie interdum convallis ac, ullamcorper vitae lorem. Proin bibendum, mi nec tincidunt ultrices, nisl libero finibus libero, sed porta sem enim in neque. Vivamus posuere, ipsum at tincidunt elementum, nisi ante maximus odio, at accumsan nunc est in eros. Cras purus elit, egestas et elit id, ornare posuere nisl. Maecenas eget ante orci. Phasellus id auctor lorem, non scelerisque nulla. Integer porttitor tortor sed lacus aliquam, et malesuada massa aliquet. "
+        android:id="@+id/detail_info"
+        android:paddingLeft="10sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/icon_categorie" />
+
+
+</RelativeLayout>
